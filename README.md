@@ -76,21 +76,4 @@ Asegúrate de que el backend esté corriendo antes de crear o eliminar playlists
 ---
 
 
-### 🚀 Opción 2: Ejecutar con Docker
-
-1. Construir la imagen:
-
-   ```bash
-   docker build -t playlist-frontend .
-
-
-2. Ejecutar el contenedor
-    ```bash
-    docker run -p 4200:80 --name Playlist-app playlist-frontend
-
-
-3. La aplicación estará disponible en http://localhost:4200
-
-
-
 _Última actualización: 2025-05-24_
